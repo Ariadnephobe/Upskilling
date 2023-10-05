@@ -1,0 +1,13 @@
+#This is an API tester and practice file
+
+import requests
+import json
+#GET is used to retrieve data
+#json is used for dealing with the json type
+
+response = requests.get("https://httpbin.org/anything")
+
+print(response.json)
+
+#SUCCESS! JSON is the language of API's
+
